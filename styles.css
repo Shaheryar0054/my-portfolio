@@ -597,9 +597,6 @@ nav {
     color: var(--primary-color);
   }
 
-  .nav__links li:last-child {
-    display: none;
-  }
 
   .nav__btn {
     flex: 1;
@@ -667,4 +664,50 @@ nav {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+/* .social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-btn a {
+  padding: 6px 8px;
+  font-size: 1.125rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 100%;
+} */
+
+.github a {
+  padding: 6px 8px;
+  font-size: 1.125rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+
+.github a:hover {
+  padding: 6px 8px;
+  font-size: 1.125rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+.linkedin a {
+  padding: 6px 8px;
+  font-size: 1.125rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+
+.linkedin a:hover {
+  padding: 6px 8px;
+  font-size: 1.125rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 100%;
 }
